@@ -50,6 +50,12 @@ $ cd server
 $ python HTTPServer.py
 ```
 
+### Screenshots 
+
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
+
 ### Requirements
 
 * Python 2.7
