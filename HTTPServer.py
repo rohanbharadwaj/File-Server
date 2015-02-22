@@ -13,7 +13,6 @@ then point your browser at http://localhost:8080
 """
 __author__      = "Rohan Bharadwaj"
 __copyright__   = "Copyright 2015, Rohan Bharadwaj"
-__license__ = "GPL v2.0"
 __version__ = "1.0"
 __email__ = "rbharadwaj@cs.stonybrook.edu"
 
