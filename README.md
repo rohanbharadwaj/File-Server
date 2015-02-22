@@ -20,7 +20,7 @@ The client sends `GET/POST` requests from browser. The working flow of read,list
 
 ### Implementation Details
 
-The serverside is developed using python. First `HTTPServer(('', PORT), requestHandler)` creates a server that runs forever and accepts requests until it is stopped manually.
+The serverside is developed using python. First `HTTPServer(('HOST', PORT), requestHandler)` creates a server that runs forever and accepts requests until it is stopped manually.
 
 #####`def do_GET(self)`
 This method uses `path.endswith()` to check for the data files to serve to the client. This check is kept so that only data files are served and source code is hidden from the user.
