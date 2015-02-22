@@ -8,12 +8,12 @@ The server is implemented using Python's HTTPServer class. It implements `do_GET
   - Update file
   - Delete file
 
-The client gets an interface for connecting to sever using Browser. I have hosted the server on `localhost` of my machine at PORT=8888. But this application can be configured to run on any machine by changing the `HOST` and `PORT` in `configure.py` file.
+The client gets an interface for connecting to sever using Browser. I have hosted the server on `localhost` of my machine at `PORT=8888`. But this application can be configured to run on any machine by changing the `HOST` and `PORT` in `configure.py` file.
 
-The client sends GET/POST requests from browser. The working flow of read,list,update,delete opertations is given below:
+The client sends `GET/POST` requests from browser. The working flow of read,list,update,delete opertations is given below:
 - **read** : This is used to display contents of a specified file. The client sends a POST request and filename is accessed at the server end using cgi FieldStorage api with the help of form elements names.
 - **list** : list is used to list the files that are available at the sever. 
-- **update** : This is used to update the contents of a file at the server. The client sends the file to be updated and the new contents using POST reauest. At the server side the file is opened and write mode is modified with the new contents.
+- **update** : This is used to update the contents of a file at the server. The client sends the file to be updated and the new contents using POST request. At the server side the file is opened and write mode is modified with the new contents.
 - **delete** : This feature lets you to delete a file.
   
 
@@ -39,7 +39,7 @@ self.end_headers()
 ### Code Structure
 
 * HttpServer.py - The heart of the app, python server.
-* index.html - Frontend client developed in HTML
+* index.html - Frontend interface for the client. 
 
 
 ### Installation
