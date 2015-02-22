@@ -50,6 +50,18 @@ $ cd server
 $ python HTTPServer.py
 ```
 
+### Configuration
+To chnage the Host and Port of the Server edit the file `configure.py`
+
+```sh
+$ vim configure.py
+
+PORT = 8888         #The port where the server runs
+HOST = 'localhost'  # The host address where the server is hosted.
+```
+
+
+
 ### Screenshots 
 
 ![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
