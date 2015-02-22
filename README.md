@@ -53,8 +53,10 @@ $ python HTTPServer.py
 ### Screenshots 
 
 ![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
-![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
-![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic1.png)
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic2.png)
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic3.png)
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic4.png)
+![ScreenShot](https://github.com/rohanbharadwaj/File-Server/blob/master/screenshots/pic5.png)
 
 ### Requirements
 
