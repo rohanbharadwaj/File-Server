@@ -18,12 +18,10 @@ __version__ = "1.0"
 __email__ = "rbharadwaj@cs.stonybrook.edu"
 
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+import configure as cfg
 import cgi
 from os import curdir, sep
 import os
-
-
-PORT = 8099
 
 
 class requestHandler(BaseHTTPRequestHandler):
@@ -137,7 +135,12 @@ class requestHandler(BaseHTTPRequestHandler):
                 self.injectFooter()
                 self.injectHome()  
             except (OSError,KeyError) as e:
-                self.send_error(404,'File Not Found: %s' % self.path)                                 
+                self.send_error(404,'File Not Found: %s' % self.path)
+        if self.path=="/action":
+            try:
+                print "heyy"
+            except (OSError,KeyError) as e:
+                self.send_error(404,'File Not Found: %s' % self.path)                                          
             return
      
     def getData(self):
@@ -162,10 +165,10 @@ class requestHandler(BaseHTTPRequestHandler):
                           
             
 try:
-    server = HTTPServer(('', PORT), requestHandler)
-    print 'Started httpserver on port ' , PORT
+    server = HTTPServer((cfg.HOST, cfg.PORT), requestHandler)
+    print 'Started file server on port ' , cfg.PORT
     server.serve_forever()
 
 except KeyboardInterrupt:
-    print 'shutting down the web server'
+    print 'shutting down the file server'
     server.socket.close()

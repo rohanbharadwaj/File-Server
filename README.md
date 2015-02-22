@@ -6,9 +6,6 @@ The server is implemented using Python's HTTPServer class. It implements `do_GET
   - Update file
   - Delete file
 
-The values are sent to server using POST and accessed at server using form elements using cgi FieldStorage class.
-  
-
 Watch the demo of the Application [here](https://www.youtube.com/watch?v=F1jedLLX1aQ&feature=youtu.be) 
 ### Implementation Details
 
