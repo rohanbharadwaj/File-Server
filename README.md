@@ -5,6 +5,7 @@ Watch the demo of the Application [here](https://www.youtube.com/watch?v=F1jedLL
 
 The server is implemented using Python's HTTPServer class. It implements `do_GET` and `do_POST` methods to handle requests from client. The server supports following operations
   - Display list of available files
+  - Read file contents
   - Update file
   - Delete file
 
