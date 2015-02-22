@@ -35,7 +35,7 @@ self.end_headers()
 ### Installation
 
 ```sh
-$ git clone https://github.com/rohanbharadwaj/------
+$ git clone https://github.com/rohanbharadwaj/File-Sever.git
 $ cd server
 $ python HTTPServer.py
 ```
