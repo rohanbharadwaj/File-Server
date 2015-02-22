@@ -41,6 +41,7 @@ self.end_headers()
 
 * HttpServer.py - The heart of the app, python server.
 * index.html - Frontend interface for the client. 
+* configure.py - configuration file to chnage host,port
 
 
 ### Installation
