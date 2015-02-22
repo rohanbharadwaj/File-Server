@@ -62,12 +62,3 @@ $ python HTTPServer.py
 
 * Python 2.7
 * Browser
-
-### Todo's
-
- - Write externel CSS
-
-License
-----
-
-GNU GPL v2
